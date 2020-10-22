@@ -8,6 +8,7 @@ Script to extract the Burmese from a translation csv and create translation yaml
 3) recombine in a dataframe with 'en' and 'burm' columns and check for mismatches --> `en_burm_trans`
 4) download (manually) the official [english-english translation yaml files](https://github.com/open-sdg/sdg-translations/tree/master/translations/en) 
 5) turn yaml files into dataframe --> `all_translations`
+
 all_translations has the structure:
 
 | yamlfilename    | key_word     | sentence     |
