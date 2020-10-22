@@ -9,9 +9,12 @@ Script to extract the Burmese from a translation csv and create translation yaml
 4) download (manually) the official [english-english translation yaml files](https://github.com/open-sdg/sdg-translations/tree/master/translations/en) 
 5) turn yaml files into dataframe --> `all_translations`
 all_translations has the structure:
---------------------------------------
-¦ yamlfilename ¦ key_word ¦ sentence ¦
-¦ -----------------------------------
+
+| yamlfilename    | key_word     | sentence     |
+| :------------- | :----------: | -----------: |
+|  indicator | clear_all   | Clear all    |
+
+
 6) using the strings in the 'en' column  in `en_burm_trans` as search strings, find matches in 'sentence' column of `all_translations` and return the key_word and yamlfilename as a string, creating `yamlfilename` and `key_word` columns in `en_burm_trans`
 7) Filter `en_burm_trans` by yaml_file, and write out to `.yaml` files. 
 - Each `yamlfilename` should be its own yaml file. e.g. 'global_targets.yml'
