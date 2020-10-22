@@ -3,7 +3,7 @@ Script to extract the Burmese from a translation csv and create translation yaml
 
 # Method
 
-1) import all English/Burmese translations from csv
+1) import all English/Burmese translations from [the translations csv](https://github.com/jwestw/parse_burmese/blob/main/translations_for_myanmar.csv)
 2) as both languages are in one column, seperate them
 3) recombine in a dataframe with 'en' and 'burm' columns and check for mismatches --> `en_burm_trans`
 4) download (manually) the official [english-english translation yaml files](https://github.com/open-sdg/sdg-translations/tree/master/translations/en) 
