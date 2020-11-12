@@ -1,9 +1,7 @@
-reporting_status: Reporting Status
-overall_reporting_status: Overall Reporting Status
-reported_online: Reported online
-statistics_in_progress: Statistics in progress
-exploring_data_sources: Exploring data sources
-not_applicable: Not applicable
-# Describing a section where the status is reported for each goal
-status_by_goal: Status by goal
-status_by_field: Status by %field
+exploring_data_sources: ဒေတာရင်းမြစ်များကို ရှာဖွေကြည့်ရှုခြင်း
+not_applicable: သက်ဆိုင်ခြင်းမရှိပါ။
+overall_reporting_status: အစီရင်ခံတင်ပြမှု၏ အခြေအနေအလုံးစုံ
+reported_online: အွန်လိုင်းတွင် အစီရင်ခံတင်ပြပြီး ဖြစ်သည်။
+reporting_status: အစီရင်ခံတင်ပြမှု အခြေအနေ
+statistics_in_progress: စာရင်းအင်းအချက်အလက်များတင်ပြရန် လုပ်ဆောင်ဆဲဖြစ်ပါသည်။
+status_by_goal: ရည်မှန်းချက်ပေါ်လိုက်၍ အဆင့်သတ်မှတ်ချက်
